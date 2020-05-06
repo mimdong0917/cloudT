@@ -5,5 +5,5 @@ Nginx install
 
 Copy the sources to your docker host and build the container, and to run.
 ```
-	docker build --rm -t mimdong/nginx .
-	docker run -it --name n1 -p 8888:80 mimdong/nginx
+	docker build --rm -t mimdong/ubuntu .
+	docker run -it --name n1 -p 8888:80 mimdong/ubuntu
